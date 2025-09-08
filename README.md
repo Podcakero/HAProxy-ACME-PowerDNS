@@ -12,7 +12,7 @@ HAPROXY_URL - Hostname of HAProxy Host
 BASE_DOMAIN - Base Domain for all Records (ex. example.com)
 
 ## Docker Run
-```
+```bash
 docker run \
 -e ACME_MAIL=<Your Email Address> \
 -e ACME_DNS_API=<Your DNS Provider> \
@@ -32,7 +32,7 @@ ghcr.io/podcakero/haproxy-acme-pdns:latest
 ```
 
 ## Docker Compose
-```
+```docker-compose
 services:
   haproxy:
     image: haproxy-acme-pdns:latest
