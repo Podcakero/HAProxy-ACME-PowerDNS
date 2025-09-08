@@ -3,12 +3,19 @@ This is a customized HAProxy Docker Image that integrates ACME.sh Certificate Cr
 
 ## Required Environment Variables
 ACME_MAIL - Email for the ACME Account
+
 ACME_DNS_API - Which ACME DNS API to Use. See ACME.sh Documentation
+
 POWERDNS_URL - URL of PowerDNS HTTP Rest API
+
 POWERDNS_API_KEY - API Key for PowerDNS HTTP Rest API
+
 POWERDNS_ZONE - PowerDNS Zone to create records in
+
 POWERDNS_TTL - TTL for PowerDNS Records
+
 HAPROXY_URL - Hostname of HAProxy Host
+
 BASE_DOMAIN - Base Domain for all Records (ex. example.com)
 
 ## Docker Run
